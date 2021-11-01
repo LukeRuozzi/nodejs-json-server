@@ -1,4 +1,4 @@
 {
   "installDependencies": true,
-  "startCommand": "json-server --watch db.json"
+  "startCommand": "npx json-server --watch db.json"
 }
