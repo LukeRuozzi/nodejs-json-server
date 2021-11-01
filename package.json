@@ -2,9 +2,13 @@
   "name": "node-starter",
   "version": "0.0.0",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prestart": "npm install --silent",
+    "start": "json-server --watch db.json"
   },
   "dependencies": {
-    "json-server": "^0.17.0"
-  }
+    "cors": "^2.8.5",
+    "json-server": "^0.17.0",
+    "nodemon": "^2.0.7"
+  },
+  "_id": "node-starter@0.0.0"
 }
